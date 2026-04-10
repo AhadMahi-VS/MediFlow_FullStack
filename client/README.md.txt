@@ -23,7 +23,12 @@ We have included an **Automated Script** to set up everything for you.
 ### 3️⃣ Run the Project
 1.  Download this repository (Click **Code** -> **Download ZIP** and unzip it).
 2.  Open the folder.
-3.  Double-click the file named **`RUN_ME.bat`**.
+3.  Open XAMPP and Start MySQL.
+4.  Click the Admin button next to MySQL (to open phpMyAdmin).
+5.  Click "New" on the left.
+6.  Type the name: mediflow_django and click Create. <-- (Critical Step)
+7.  Now double-click RUN_ME.bat.
+8.  Double-click the file named **`RUN_ME.bat`**.
 
 **That's it!** The script will automatically:
 *   Install required Python libraries.
