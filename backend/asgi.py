@@ -9,6 +9,9 @@ https://docs.djangoproject.com/en/6.0/howto/deployment/asgi/
 
 import os
 
+import pymysql
+pymysql.install_as_MySQLdb()
+
 from django.core.asgi import get_asgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.settings')
