@@ -75,13 +75,14 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
+# settings.py - NO CHANGES NEEDED HERE
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mediflow_django',  # The DB name you created in XAMPP
-        'USER': 'root',             # Default XAMPP user
-        'PASSWORD': '',             # Default XAMPP password (empty)
-        'HOST': 'localhost',
+        'ENGINE': 'django.db.backends.mysql',  # Keep this same
+        'NAME': 'your_database_name',
+        'USER': 'your_database_user',
+        'PASSWORD': 'your_database_password',
+        'HOST': 'your_database_host',
         'PORT': '3306',
     }
 }
